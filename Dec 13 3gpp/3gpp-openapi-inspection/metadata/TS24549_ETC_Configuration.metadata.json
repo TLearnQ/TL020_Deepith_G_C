@@ -1,0 +1,29 @@
+{
+  "title": "ETC_Configuration",
+  "version": "1.1.0-alpha.1",
+  "endpoints": [
+    {
+      "path": "/val-services/{valServiceId}/configurations/{configurationId}",
+      "method": "PUT",
+      "operationId": "EventTriggeredNetworkAdaptation",
+      "responses": [
+        "204",
+        "307",
+        "308",
+        "400",
+        "401",
+        "403",
+        "404",
+        "411",
+        "413",
+        "415",
+        "429",
+        "500",
+        "503",
+        "default"
+      ],
+      "has_request_body": true,
+      "security": null
+    }
+  ]
+}

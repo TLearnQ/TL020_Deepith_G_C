@@ -1,0 +1,29 @@
+{
+  "title": "Aimlec_AIMLEClientServiceOperations",
+  "version": "1.0.0-alpha.2",
+  "endpoints": [
+    {
+      "path": "/perform",
+      "method": "POST",
+      "operationId": "AimleServOperReq",
+      "responses": [
+        "200",
+        "307",
+        "308",
+        "400",
+        "401",
+        "403",
+        "404",
+        "411",
+        "413",
+        "415",
+        "429",
+        "500",
+        "503",
+        "default"
+      ],
+      "has_request_body": true,
+      "security": null
+    }
+  ]
+}

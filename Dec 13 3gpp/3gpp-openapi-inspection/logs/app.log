@@ -1,0 +1,9 @@
+{"level": "INFO", "message": "Parsing TS24549_ETC_Configuration.yaml", "module": "parser", "time": "2025-12-13 09:12:57,323"}
+{"level": "INFO", "message": "Parsing TS24558_Eecs_ServiceProvisioning.yaml", "module": "parser", "time": "2025-12-13 09:12:57,335"}
+{"level": "INFO", "message": "Parsing TS24560_Aimlec_AIMLEClientServiceOperations.yaml", "module": "parser", "time": "2025-12-13 09:12:57,420"}
+{"level": "INFO", "message": "Parsing TS26113_Maf_SessionHandling.yaml", "module": "parser", "time": "2025-12-13 09:12:57,433"}
+{"level": "INFO", "message": "Parsing TS24549_ETC_Configuration.yaml", "module": "parser", "time": "2025-12-13 09:16:41,132"}
+{"level": "INFO", "message": "Parsing TS24558_Eecs_ServiceProvisioning.yaml", "module": "parser", "time": "2025-12-13 09:16:41,140"}
+{"level": "INFO", "message": "Parsing TS24560_Aimlec_AIMLEClientServiceOperations.yaml", "module": "parser", "time": "2025-12-13 09:16:41,181"}
+{"level": "INFO", "message": "Parsing TS26113_Maf_SessionHandling.yaml", "module": "parser", "time": "2025-12-13 09:16:41,191"}
+{"level": "INFO", "message": "Parsing TS26510_Notifications.yaml", "module": "parser", "time": "2025-12-13 09:16:41,195"}

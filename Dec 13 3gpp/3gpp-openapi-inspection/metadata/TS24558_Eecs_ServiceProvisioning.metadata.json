@@ -1,0 +1,119 @@
+{
+  "title": "Eecs_ServiceProvisioning",
+  "version": "1.2.0-alpha.4",
+  "endpoints": [
+    {
+      "path": "/subscriptions",
+      "method": "POST",
+      "operationId": "CreateServProvSub",
+      "responses": [
+        "201",
+        "400",
+        "401",
+        "403",
+        "404",
+        "411",
+        "413",
+        "415",
+        "429",
+        "500",
+        "503",
+        "default"
+      ],
+      "has_request_body": true,
+      "security": null
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}",
+      "method": "PUT",
+      "operationId": "UpdateIndServProvSub",
+      "responses": [
+        "200",
+        "204",
+        "307",
+        "308",
+        "400",
+        "401",
+        "403",
+        "404",
+        "411",
+        "413",
+        "415",
+        "429",
+        "500",
+        "503",
+        "default"
+      ],
+      "has_request_body": true,
+      "security": null
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}",
+      "method": "DELETE",
+      "operationId": "DeleteIndServProvSub",
+      "responses": [
+        "204",
+        "307",
+        "308",
+        "400",
+        "401",
+        "403",
+        "404",
+        "429",
+        "500",
+        "503",
+        "default"
+      ],
+      "has_request_body": false,
+      "security": null
+    },
+    {
+      "path": "/subscriptions/{subscriptionId}",
+      "method": "PATCH",
+      "operationId": "ModifyIndServProvSub",
+      "responses": [
+        "200",
+        "204",
+        "307",
+        "308",
+        "400",
+        "401",
+        "403",
+        "404",
+        "411",
+        "413",
+        "415",
+        "429",
+        "500",
+        "503",
+        "default"
+      ],
+      "has_request_body": true,
+      "security": null
+    },
+    {
+      "path": "/request",
+      "method": "POST",
+      "operationId": "RequestServProv",
+      "responses": [
+        "200",
+        "204",
+        "307",
+        "308",
+        "400",
+        "401",
+        "403",
+        "404",
+        "411",
+        "413",
+        "415",
+        "429",
+        "500",
+        "503",
+        "default"
+      ],
+      "has_request_body": true,
+      "security": null
+    }
+  ]
+}
