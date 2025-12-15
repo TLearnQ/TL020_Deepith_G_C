@@ -29,15 +29,3 @@ This produces `summary/coverage_summary.json` and `summary/coverage_summary.md`.
 
 ## Logging
 Structured JSON logs are emitted to stdout via `python-json-logger`. See `src/logger_setup.py`.
-
-## Deliverables
-- `metadata/*.metadata.json`
-- `summary/coverage_summary.json` and `.md`
-- README (this file)
-- GitHub repo link
-
-## Notes on security/auth
-The parser just extracts declared security schemes (API Key / OAuth2 / HTTP Bearer) found in `components.securitySchemes`. The client implements basic `auth` parameter for requests; do not embed secrets in repo.
-
-## Author
-Your Name — contact
